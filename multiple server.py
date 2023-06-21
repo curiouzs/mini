@@ -27,4 +27,5 @@ if (rho<1):
   print("Probability that the system is busy : %0.2f "%(rho)) 
   print("Probability that the system is empty : %0.2f "%(1-rho))
 else:
-  print("Warning! Objects Over flow will happen in the conveyor") print("	")
+  print("Warning! Objects Over flow will happen in the conveyor")
+print("-----------------------	")
