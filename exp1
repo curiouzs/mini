@@ -1,4 +1,3 @@
-```py
 import numpy as np
 L=[int(i) for i in input().split()] N=len(L);
 print(N) M=max(L) print(M)
@@ -13,4 +12,3 @@ mean=np.inner(x,prob_of_x) print(mean) EX2=np.inner(np.square(x),prob_of_x) vari
 print("The Mean arrival rate is %.3f "%mean)
 print("The Variance of arrival from feeder is %.3f "%variance)
 print("The Standard deviation of arrival from feeder is %.3F "%standard_deviation)
-```
