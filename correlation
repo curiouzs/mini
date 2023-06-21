@@ -1,4 +1,3 @@
-```py
 import matplotlib.pyplot as plt import numpy as np
 x=[int(i) for i in input().split()] y =[int(i) for i in input().split()]
 N= len(x) Sx= 0
@@ -23,4 +22,3 @@ plt.scatter(x,y) def Reg(x):
 return ymean + byx*(x-xmean) x=np.linspace(0,80,51) y1=Reg(x)
 plt.plot(x,y1,'r') plt.xlabel('x-data') plt.ylabel('y-data')
 plt.legend(['Regression Line','Data points'])
-```
